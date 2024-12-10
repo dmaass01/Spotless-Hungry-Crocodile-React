@@ -90,6 +90,7 @@ const Hero = (props) => {
           </div>
         </div>
         <div className="hero-row-container2 thq-mask-image-horizontal thq-animated-group-container-horizontal">
+          <div className="hero-strip3 thq-animated-group-horizontal-reverse"></div>
           <div className="thq-animated-group-horizontal-reverse">
             <img
               alt={props.image7Alt}
@@ -117,41 +118,9 @@ const Hero = (props) => {
               className="hero-placeholder-image26 thq-img-ratio-1-1 thq-img-scale"
             />
             <img
-              alt={props.image12Alt}
-              src={props.image12Src}
-              className="hero-placeholder-image27 thq-img-ratio-1-1 thq-img-scale"
-            />
-          </div>
-          <div className="thq-animated-group-horizontal-reverse">
-            <img
-              alt={props.image7Alt}
-              src={props.image7Src}
-              className="hero-placeholder-image28 thq-img-ratio-1-1 thq-img-scale"
-            />
-            <img
-              alt={props.image8Alt}
-              src={props.image8Src}
-              className="hero-placeholder-image29 thq-img-ratio-1-1 thq-img-scale"
-            />
-            <img
-              alt={props.image9Alt}
-              src={props.image9Src}
-              className="hero-placeholder-image30 thq-img-ratio-1-1 thq-img-scale"
-            />
-            <img
-              alt={props.image10Alt}
-              src={props.image10Src}
-              className="hero-placeholder-image31 thq-img-ratio-1-1 thq-img-scale"
-            />
-            <img
-              alt={props.image11Alt}
-              src={props.image11Src}
-              className="hero-placeholder-image32 thq-img-ratio-1-1 thq-img-scale"
-            />
-            <img
               alt="Hero Image"
               src="https://images.unsplash.com/photo-1568214379698-8aeb8c6c6ac8?ixid=M3w5MTMyMXwwfDF8c2VhcmNofDEyfHxncmFmaWN8ZW58MHx8fHwxNzE1Nzk0OTk5fDA&amp;ixlib=rb-4.0.3&amp;w=1500"
-              className="hero-placeholder-image33 thq-img-ratio-1-1 thq-img-scale"
+              className="hero-placeholder-image27 thq-img-ratio-1-1 thq-img-scale"
             />
           </div>
         </div>
@@ -192,40 +161,37 @@ Hero.defaultProps = {
   image5Alt: 'Hero Image',
   action2: 'Learn More',
   image11Src:
-    'https://images.unsplash.com/photo-1490730141103-6cac27aaab94?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTMyMXwwfDF8cmFuZG9tfHx8fHx8fHx8MTczMzg0NjU4OHw&ixlib=rb-4.0.3&q=80&w=1080',
+    'https://images.unsplash.com/photo-1490730141103-6cac27aaab94?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTMyMXwwfDF8cmFuZG9tfHx8fHx8fHx8MTczMzg0NjU4OHw&ixlib=rb-4.0.3&q=80&w=1500',
   image11Alt: 'Hero Image',
   image4Alt: 'Hero Image',
   heading1: 'Welcome to Lumia.ai',
   image2Src:
-    'https://images.unsplash.com/photo-1432888498266-38ffec3eaf0a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTMyMXwwfDF8cmFuZG9tfHx8fHx8fHx8MTczMzg0NjU4OHw&ixlib=rb-4.0.3&q=80&w=1080',
-  image12Src:
-    'https://images.unsplash.com/photo-1542435503-956c469947f6?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTMyMXwwfDF8cmFuZG9tfHx8fHx8fHx8MTczMzg0NjU4OXw&ixlib=rb-4.0.3&q=80&w=1080',
+    'https://images.unsplash.com/photo-1432888498266-38ffec3eaf0a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTMyMXwwfDF8cmFuZG9tfHx8fHx8fHx8MTczMzg0NjU4OHw&ixlib=rb-4.0.3&q=80&w=1500',
   content1: 'Empower your business with AI solutions tailored for success.',
   image5Src:
-    'https://images.unsplash.com/photo-1459257831348-f0cdd359235f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTMyMXwwfDF8cmFuZG9tfHx8fHx8fHx8MTczMzg0NjU5MHw&ixlib=rb-4.0.3&q=80&w=1080',
+    'https://images.unsplash.com/photo-1459257831348-f0cdd359235f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTMyMXwwfDF8cmFuZG9tfHx8fHx8fHx8MTczMzg0NjU5MHw&ixlib=rb-4.0.3&q=80&w=1500',
   image6Alt: 'Hero Image',
   image4Src:
-    'https://images.unsplash.com/photo-1657818022093-5decabcef7e2?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTMyMXwwfDF8cmFuZG9tfHx8fHx8fHx8MTczMzg0NjU5MHw&ixlib=rb-4.0.3&q=80&w=1080',
+    'https://images.unsplash.com/photo-1657818022093-5decabcef7e2?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTMyMXwwfDF8cmFuZG9tfHx8fHx8fHx8MTczMzg0NjU5MHw&ixlib=rb-4.0.3&q=80&w=1500',
   image9Alt: 'Hero Image',
   image2Alt: 'Hero Image',
   image3Src:
-    'https://images.unsplash.com/photo-1657818749260-94fffe5389d6?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTMyMXwwfDF8cmFuZG9tfHx8fHx8fHx8MTczMzg0NjU4N3w&ixlib=rb-4.0.3&q=80&w=1080',
+    'https://images.unsplash.com/photo-1657818749260-94fffe5389d6?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTMyMXwwfDF8cmFuZG9tfHx8fHx8fHx8MTczMzg0NjU4N3w&ixlib=rb-4.0.3&q=80&w=1500',
   image10Alt: 'Hero Image',
   image7Alt: 'Hero Image',
   image9Src:
-    'https://images.unsplash.com/photo-1657818022609-d8be409da103?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTMyMXwwfDF8cmFuZG9tfHx8fHx8fHx8MTczMzg0NjU5MHw&ixlib=rb-4.0.3&q=80&w=1080',
+    'https://images.unsplash.com/photo-1657818022609-d8be409da103?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTMyMXwwfDF8cmFuZG9tfHx8fHx8fHx8MTczMzg0NjU5MHw&ixlib=rb-4.0.3&q=80&w=1500',
   image1Src:
-    'https://images.unsplash.com/photo-1483794344563-d27a8d18014e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTMyMXwwfDF8cmFuZG9tfHx8fHx8fHx8MTczMzg0NjU5MHw&ixlib=rb-4.0.3&q=80&w=1080',
+    'https://images.unsplash.com/photo-1483794344563-d27a8d18014e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTMyMXwwfDF8cmFuZG9tfHx8fHx8fHx8MTczMzg0NjU5MHw&ixlib=rb-4.0.3&q=80&w=1500',
   image7Src:
-    'https://images.unsplash.com/photo-1499244571948-7ccddb3583f1?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTMyMXwwfDF8cmFuZG9tfHx8fHx8fHx8MTczMzg0NjU4OXw&ixlib=rb-4.0.3&q=80&w=1080',
+    'https://images.unsplash.com/photo-1499244571948-7ccddb3583f1?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTMyMXwwfDF8cmFuZG9tfHx8fHx8fHx8MTczMzg0NjU4OXw&ixlib=rb-4.0.3&q=80&w=1500',
   image8Src:
-    'https://images.unsplash.com/photo-1489844981779-7f06e8e0fdbb?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTMyMXwwfDF8cmFuZG9tfHx8fHx8fHx8MTczMzg0NjU5MHw&ixlib=rb-4.0.3&q=80&w=1080',
+    'https://images.unsplash.com/photo-1489844981779-7f06e8e0fdbb?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTMyMXwwfDF8cmFuZG9tfHx8fHx8fHx8MTczMzg0NjU5MHw&ixlib=rb-4.0.3&q=80&w=1500',
   image1Alt: 'AI Technology Illustration',
   image10Src:
-    'https://images.unsplash.com/photo-1657818749501-2fc03b692920?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTMyMXwwfDF8cmFuZG9tfHx8fHx8fHx8MTczMzg0NjU5MHw&ixlib=rb-4.0.3&q=80&w=1080',
+    'https://images.unsplash.com/photo-1657818749501-2fc03b692920?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTMyMXwwfDF8cmFuZG9tfHx8fHx8fHx8MTczMzg0NjU5MHw&ixlib=rb-4.0.3&q=80&w=1500',
   image6Src:
-    'https://images.unsplash.com/photo-1657818749260-94fffe5389d6?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTMyMXwwfDF8cmFuZG9tfHx8fHx8fHx8MTczMzg0NjU4OXw&ixlib=rb-4.0.3&q=80&w=1080',
-  image12Alt: 'Hero Image',
+    'https://images.unsplash.com/photo-1657818749260-94fffe5389d6?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTMyMXwwfDF8cmFuZG9tfHx8fHx8fHx8MTczMzg0NjU4OXw&ixlib=rb-4.0.3&q=80&w=1500',
   image3Alt: 'Hero Image',
 }
 
@@ -239,7 +205,6 @@ Hero.propTypes = {
   image4Alt: PropTypes.string,
   heading1: PropTypes.string,
   image2Src: PropTypes.string,
-  image12Src: PropTypes.string,
   content1: PropTypes.string,
   image5Src: PropTypes.string,
   image6Alt: PropTypes.string,
@@ -256,7 +221,6 @@ Hero.propTypes = {
   image1Alt: PropTypes.string,
   image10Src: PropTypes.string,
   image6Src: PropTypes.string,
-  image12Alt: PropTypes.string,
   image3Alt: PropTypes.string,
 }
 
