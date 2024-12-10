@@ -15,7 +15,7 @@ const App = () => {
   return (
     <Router>
       <Switch>
-        <Route component={NotFound1} exact path="/not-found" />
+        <Route component={NotFound1} path="*" />
         <Route component={Home} exact path="/" />
         <Route component={NotFound} path="**" />
         <Redirect to="**" />
