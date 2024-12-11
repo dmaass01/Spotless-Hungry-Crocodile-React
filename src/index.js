@@ -8,14 +8,12 @@ import {
 } from 'react-router-dom'
 
 import './style.css'
-import NotFound1 from './views/not-found'
 import Home from './views/home'
 
 const App = () => {
   return (
     <Router>
       <Switch>
-        <Route path="*" component={NotFound1} />   // manually adjusted.
         <Route component={Home} exact path="/" />
       </Switch>
     </Router>
