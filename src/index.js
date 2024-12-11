@@ -15,7 +15,7 @@ const App = () => {
   return (
     <Router>
       <Switch>
-        <Route path="*" component={NotFound1} />
+        <Route path="*" component={NotFound1} />   // manually adjusted
         <Route component={Home} exact path="/" />
       </Switch>
     </Router>
